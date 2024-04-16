@@ -31,3 +31,11 @@ variable "AWS_SECRET_KEY" {
   description = "Account Key for Terraform AWS Access"
   type        = string
 }
+
+variable "master_password" {
+  type = string
+}
+
+variable "master_username" {
+  type = string
+}
